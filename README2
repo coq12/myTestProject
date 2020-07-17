@@ -1,2 +1,2 @@
-5a104
-add
+git diff origin/master master
+git log origin/mster..master
