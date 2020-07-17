@@ -1,2 +1,5 @@
 git diff origin/master master
 git log origin/mster..master
+5a104
+update
+add
