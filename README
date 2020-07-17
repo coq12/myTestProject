@@ -1,0 +1,41 @@
+a
+b
+c
+
+
+#local_tree <-> stage
+git diff
+
+#stage <-> HEAD
+git diff --staged
+
+#local_tree <-> HEAD
+git diff HEAD
+
+
+
+# HEAD->stage  enable file specifie
+git reset
+
+# HEAD->stage and local_tree
+git reset --hard
+
+#staged list
+git ls-files
+
+#rm staged and local_tree
+git rm
+
+
+#stage->loca_tree 
+git checkout
+
+#checkout the file or commit via staged
+git checkout HEAD -- hello.txt
+
+#local_tree,staging,specified_commit
+git reset --hard commitsha
+#staging,specified_commit
+git reset commitsha
+#local_tree only
+git reset --soft commitsha
